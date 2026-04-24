@@ -1,0 +1,29 @@
+<div>
+    <form class="form" [formGroup]="form">
+        <div class="field">
+            <label class="label">Heading</label>
+            <input class="input" type="text" formControlName="name">
+        </div>
+
+        <div class="field">
+            <label class="label">Description</label>
+            <textarea class="input" id="description" formControlName="description"></textarea>
+        </div>
+
+        <div class="field">
+            <label class="label">Size</label>
+            <input class="input" type="number" formControlName="size">
+        </div>
+
+        <div class="field">
+            <label class="label">Color</label>
+            <input class="input" type="text" formControlName="color">
+        </div>
+
+        <div class="field">
+            <label class="label">Style</label>
+            <button class="btn" type="button" (click)="onStyle()">{{style}}</button>
+        </div>
+        
+    </form>
+</div>
