@@ -57,3 +57,6 @@ Angular CLI does not come with an end-to-end testing framework by default. You c
 ## Additional Resources
 
 For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+# Card-Displayer
+The angular min project on signals and component communication. Implemented Sibling communication using input&lt;>() (signal) and output&lt;>() (signal).
+
